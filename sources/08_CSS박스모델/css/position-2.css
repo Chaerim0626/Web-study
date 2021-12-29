@@ -9,9 +9,14 @@
  width:800px;
  height:500px;
  margin:0 auto;
+ position : relative;
 }
 h1 { 
   color:#fff; 
   font-size:120px;
   text-shadow: 2px 3px 0 #000;      
+  position : absolute;
+  /* position : absolute를 사용해 위치를 지정할 때는 기준이 되는 요소에 position : relative를 사용해야함 */
+  right : 100px;
+  bottom : 100px;
 }
