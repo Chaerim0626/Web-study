@@ -20,3 +20,9 @@ body {
 img {
   max-width:100%;
 }
+
+#wrapper { /*너비를 바꿀때마다 칼럼수 조절*/
+  display : grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
