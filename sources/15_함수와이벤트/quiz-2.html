@@ -6,6 +6,20 @@
 	<title>연습문제 2</title>
 </head>
 <body>
-	
+	<script>
+		var n1 = parseInt(prompt("비교할 첫 번째 숫자:"));
+		var n2 = parseInt(prompt("비교할 두 번째 숫자:"));
+
+		function compare(x, y) {
+			if (x > y)
+				console.log(x + "이 더 큽니다.");
+			else if (x === y)
+				console.log("같습니다.");
+			else
+				console.log(y + "이 더 큽니다.");
+		}
+
+		compare(n1,n2);
+	</script>
 </body>
 </html>
